@@ -594,6 +594,10 @@
     [
       "d975582f-4378-40f0-9d4d-51d3304967f8",
       "FRONT_BUTTONS"
+    ],
+    [
+      "66243cfd-09c7-41fb-967f-bb85648dac07",
+      "AUDIO"
     ]
   ],
   "text_variables": {}
