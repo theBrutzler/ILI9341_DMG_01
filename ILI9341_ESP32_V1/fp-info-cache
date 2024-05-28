@@ -1,4 +1,4 @@
-23333527894301510
+23343826202910977
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -93415,6 +93415,13 @@ DFN NoLead
 9
 7
 TheBrutzlers_Lib
+DMG_01_CARDRIDGE_CONNECTOR
+
+
+0
+32
+32
+TheBrutzlers_Lib
 DUAL_LED_0603
 
 
@@ -95564,6 +95571,13 @@ Varistor VF
 2
 2
 easyeda2kicad
+AUDIO-TH_PJ-3043-B
+
+
+0
+10
+7
+easyeda2kicad
 CONN-SMD_20P-P0.50_INCP_IPCB05501F20S3V
 
 
@@ -95578,6 +95592,13 @@ CONN-SMD_20P-P0.50_INCP_IPCB05501M20S3V
 22
 20
 easyeda2kicad
+DC-IN-TH_DC-011A
+
+
+0
+7
+5
+easyeda2kicad
 QFN-24_L3.0-W3.0-P0.40-BL-EP
 
 
@@ -95585,12 +95606,33 @@ QFN-24_L3.0-W3.0-P0.40-BL-EP
 25
 25
 easyeda2kicad
+SOP-16_L10.0-W3.9-P1.27-LS6.0-BL
+
+
+0
+16
+16
+easyeda2kicad
+SW-TH_SS-12F23-G040
+
+
+0
+5
+5
+easyeda2kicad
 TYPE-C-SMD_TYPE-C-6P
 
 
 0
 10
 7
+easyeda2kicad
+USB-C-SMD_TYPEC-900L-ACP24
+
+
+0
+28
+25
 easyeda2kicad
 WIFI-SMD_ESP32-S2-WROVER-I
 
