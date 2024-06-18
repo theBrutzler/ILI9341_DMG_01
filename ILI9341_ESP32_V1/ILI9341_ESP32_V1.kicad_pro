@@ -121,7 +121,6 @@
         "silk_over_copper|45450000|74110194|f570ff5f-1eb5-4138-bb82-94e9364bf459|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|45559190|64671884|be280a22-af8b-40ac-b2bb-26808b032736|00000000-0000-0000-0000-000000000000",
         "silk_overlap|100742857|98526800|978856d6-82ad-4207-b35c-27d1b828227d|dbc43c09-0481-4789-a67e-01fe3ddafad7",
-        "silk_overlap|154139667|79755938|3cfca6a5-238f-44b8-bc3a-86ee937f12b0|9e39abef-684f-46ca-abab-f6e706ecfa30",
         "silk_overlap|159578071|131135194|bd463198-3f35-4d9f-b671-34fa1653ac25|b0237ce0-f9cd-43d2-9996-e4d0d031192d",
         "silk_overlap|161398071|131135194|bd463198-3f35-4d9f-b671-34fa1653ac25|9af0c8f5-2273-4fac-b2f5-1e57a560e06c",
         "silk_overlap|193419478|128803786|21645fab-507b-448c-9c24-ee3b115ca7ee|dd2c0fb9-b850-49b6-be5a-7fbaf395447f",
@@ -138,26 +137,19 @@
         "silk_overlap|230600517|95567516|d12c86ba-67f4-4575-b7a8-414ab3b33275|0b7fd3a3-a261-43c7-bd3c-e656331a4644",
         "silk_overlap|39509200|63385194|97434051-2c0e-41b6-8561-4080a47b0e91|9f54e85b-26a8-446f-9487-b30c70bf260f",
         "silk_overlap|39509200|76585194|97434051-2c0e-41b6-8561-4080a47b0e91|56451e01-d6fc-4985-be06-3863116f7701",
-        "silk_overlap|57080000|60320394|c962a3ad-bd01-4c44-a386-6e44dc441adb|a79104d3-3679-477f-ae2d-d5780cd49bfe",
         "silk_overlap|62920000|60320394|c962a3ad-bd01-4c44-a386-6e44dc441adb|cee0803f-0f4e-4e9f-ae36-11d1faf8ed7c",
         "solder_mask_bridge|192697019|125995828|9e416c67-085d-45fd-b76e-c9cc1693e24d|a398aea4-ad36-4799-94f9-fa7a92841715",
         "solder_mask_bridge|196488070|126010193|9e416c67-085d-45fd-b76e-c9cc1693e24d|a398aea4-ad36-4799-94f9-fa7a92841715",
         "solder_mask_bridge|201138070|67335194|8f30c2d2-7821-4200-a7e4-b16a52a06313|89c62d27-f354-4e3a-a7ce-e92ae1f17861",
-        "solder_mask_bridge|201383123|70975457|8f30c2d2-7821-4200-a7e4-b16a52a06313|89c62d27-f354-4e3a-a7ce-e92ae1f17861",
-        "solder_mask_bridge|205438070|134935194|b170be70-dee3-48ab-96a1-8c9e7d7afa88|52cf3787-e363-445c-be85-014e205bafb2",
-        "solder_mask_bridge|205451033|131142594|b170be70-dee3-48ab-96a1-8c9e7d7afa88|52cf3787-e363-445c-be85-014e205bafb2",
         "solder_mask_bridge|205613071|116735194|28f2ddad-e13d-4475-8b14-fc024fd93022|8ee49f62-e435-4de5-addb-6991af303061",
         "solder_mask_bridge|205627436|112944143|28f2ddad-e13d-4475-8b14-fc024fd93022|8ee49f62-e435-4de5-addb-6991af303061",
-        "solder_mask_bridge|207840355|85482158|3b44661a-003c-4f85-a5b7-99e8860e439a|cb1181a2-8bfd-42cf-9438-d49f5236d066",
         "solder_mask_bridge|208138070|81735194|3b44661a-003c-4f85-a5b7-99e8860e439a|cb1181a2-8bfd-42cf-9438-d49f5236d066",
         "solder_mask_bridge|215088070|125460195|f23e20ca-ef44-41e4-a945-f32624497995|8768fac5-5568-49d1-806e-67c4ee515381",
         "solder_mask_bridge|218879121|125474560|f23e20ca-ef44-41e4-a945-f32624497995|8768fac5-5568-49d1-806e-67c4ee515381",
-        "solder_mask_bridge|226630902|113734764|9f970764-ac51-4c2c-85f5-b7e5ce2f3aaa|229700cc-be93-4716-8780-c7cb2b9074be",
         "solder_mask_bridge|226938070|109935194|9f970764-ac51-4c2c-85f5-b7e5ce2f3aaa|229700cc-be93-4716-8780-c7cb2b9074be",
         "solder_mask_bridge|226938070|94735194|04397f14-9a22-4a42-aa9e-c3763ab7b44d|0a2177f7-1d22-4155-ad0a-3cc03d7f2f11",
         "solder_mask_bridge|230122355|95409487|04397f14-9a22-4a42-aa9e-c3763ab7b44d|0a2177f7-1d22-4155-ad0a-3cc03d7f2f11",
         "solder_mask_bridge|70200000|65505194|e6b68268-f544-48f0-957d-b894f5b98b8f|e54293e5-5435-47d1-8ecd-f4811e594668",
-        "solder_mask_bridge|73999570|65812361|e6b68268-f544-48f0-957d-b894f5b98b8f|e54293e5-5435-47d1-8ecd-f4811e594668",
         "solder_mask_bridge|85400000|65505194|933f198e-ab83-4192-ab1b-f0e24ec5b688|87660427-63e5-4651-81db-ada138986c68",
         "solder_mask_bridge|89120489|65783285|933f198e-ab83-4192-ab1b-f0e24ec5b688|87660427-63e5-4651-81db-ada138986c68"
       ],
@@ -181,6 +173,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -594,6 +587,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -624,7 +618,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -678,7 +672,19 @@
           "group_by": false,
           "label": "Beschreibung",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ALI",
+          "name": "ALI",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOURCED",
+          "name": "SOURCED",
+          "show": true
         }
       ],
       "filter_string": "",
