@@ -1316,7 +1316,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2682182"
+		(property "LCSC Part" ""
 			(at 199.39 101.6 0)
 			(effects
 				(font
@@ -1326,6 +1326,15 @@
 			)
 		)
 		(property "SOURCED" "jop"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2682182"
 			(at 199.39 81.28 0)
 			(effects
 				(font

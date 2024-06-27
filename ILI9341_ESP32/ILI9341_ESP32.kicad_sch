@@ -5669,6 +5669,16 @@
 		)
 		(uuid "521f5004-97cc-4633-8345-6c17a7072ca8")
 	)
+	(text "Höhere Buchse!"
+		(exclude_from_sim no)
+		(at 19.685 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b061adf3-9402-49cc-ae88-2289d4178c39")
+	)
 	(label "VUSB"
 		(at 15.24 109.22 0)
 		(fields_autoplaced yes)
@@ -6041,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C480366"
+		(property "LCSC Part" ""
 			(at 24.13 93.98 0)
 			(effects
 				(font
@@ -6051,6 +6061,15 @@
 			)
 		)
 		(property "SOURCED" "jop"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480366"
 			(at 24.13 76.2 0)
 			(effects
 				(font
@@ -6925,8 +6944,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C527089"
+		(property "LCSC Part" ""
 			(at 168.91 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C527089"
+			(at 168.91 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,8 +8270,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C527089"
+		(property "LCSC Part" ""
 			(at 118.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C527089"
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,8 +8464,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C527089"
+		(property "LCSC Part" ""
 			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C527089"
+			(at 143.51 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,8 +8868,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C527089"
+		(property "LCSC Part" ""
 			(at 194.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C527089"
+			(at 194.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +10220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2848932"
+		(property "LCSC Part" ""
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -10175,6 +10230,15 @@
 			)
 		)
 		(property "SOURCED" "jop"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2848932"
 			(at 86.36 95.25 0)
 			(effects
 				(font
