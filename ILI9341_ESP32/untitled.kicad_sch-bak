@@ -1313,7 +1313,7 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_GSD"
+		(symbol "Device:Q_PMOS_GSD"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1328,7 +1328,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GSD"
+			(property "Value" "Q_PMOS_GSD"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -1355,7 +1355,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1364,7 +1364,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1373,7 +1373,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_GSD_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -1460,7 +1460,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1472,7 +1472,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -1484,7 +1484,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -1496,7 +1496,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -1540,7 +1540,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GSD_1_1"
+			(symbol "Q_PMOS_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2500,12 +2500,6 @@
 		)
 	)
 	(junction
-		(at 76.835 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06ca20e1-94ce-432e-8cf9-007e6e523e19")
-	)
-	(junction
 		(at 152.4 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2558,6 +2552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "807a0f5e-1afe-4875-b143-085b37e15bdf")
+	)
+	(junction
+		(at 76.835 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d03a8a0-d6e6-43f6-b167-ee267e3f1c76")
 	)
 	(junction
 		(at 30.48 48.26)
@@ -2704,16 +2704,6 @@
 			(type default)
 		)
 		(uuid "1684f9ce-c708-412b-9479-76fae3543600")
-	)
-	(wire
-		(pts
-			(xy 76.835 39.37) (xy 91.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cae2ee3-538d-49c3-b4c8-0e2b9b438fe0")
 	)
 	(wire
 		(pts
@@ -2914,6 +2904,16 @@
 			(type default)
 		)
 		(uuid "486c78f2-67ff-47d4-8b68-00faec55eca2")
+	)
+	(wire
+		(pts
+			(xy 76.835 39.37) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cacb8c-dc15-4ff1-87b3-3a56f3e38420")
 	)
 	(wire
 		(pts
@@ -4822,6 +4822,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "jop"
+			(at 78.105 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e7c03ba-0230-431f-b1d0-2cfae031c7b1")
 		)
@@ -4891,6 +4900,15 @@
 			)
 		)
 		(property "LCSC" "C26000"
+			(at 148.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 148.59 134.62 0)
 			(effects
 				(font
@@ -4976,6 +4994,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "jop"
+			(at 66.04 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30662a2f-b72c-4893-b6e3-adbd8b1b7198")
 		)
@@ -5049,6 +5076,15 @@
 			)
 		)
 		(property "LCSC" "C47023"
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -5198,6 +5234,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 210.82 86.36 0)
 			(effects
 				(font
@@ -5356,7 +5401,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V"
+			(at 125.095 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C282809"
+			(at 125.095 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 125.095 31.75 0)
 			(effects
 				(font
@@ -5425,7 +5488,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V"
+			(at 183.515 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C282809"
+			(at 183.515 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 183.515 52.07 0)
 			(effects
 				(font
@@ -5444,6 +5525,95 @@
 			(project "ILI9341_ESP32_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/184cff21-c02f-4351-bd46-41d268514870"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_GSD")
+		(at 76.835 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b8528d8-20eb-4c17-b75c-f7068978b73e")
+		(property "Reference" "Q5"
+			(at 73.66 28.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_PMOS_GSD"
+			(at 85.725 28.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 79.375 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.835 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 76.835 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19078062"
+			(at 76.835 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
+			(at 76.835 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94c816e8-6936-4928-8a6e-853fa47d2aba")
+		)
+		(pin "2"
+			(uuid "3a3b5048-80b9-441a-9107-4e12e87b141a")
+		)
+		(pin "1"
+			(uuid "f155502f-88ed-40c7-bb2d-71d2b69741e4")
+		)
+		(instances
+			(project "ILI9341_ESP32_V1"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/184cff21-c02f-4351-bd46-41d268514870"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5507,6 +5677,15 @@
 			)
 		)
 		(property "LCSC" "C47023"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 99.06 63.5 0)
 			(effects
 				(font
@@ -5635,7 +5814,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.5348 66.04 0)
 			(effects
 				(font
@@ -5653,7 +5832,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 63.5 69.85 0)
 			(effects
 				(font
@@ -5739,6 +5936,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "jop"
+			(at 53.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "342224b6-64d8-4bdd-be16-9e6eabf49f7b")
 		)
@@ -5781,7 +5987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 165.735 136.525 0)
 			(effects
 				(font
@@ -5820,6 +6026,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "jop"
+			(at 160.655 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63b22020-7078-4200-a413-89e40f65f8d0")
 		)
@@ -5833,85 +6048,6 @@
 			(project "ILI9341_ESP32_V1"
 				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/184cff21-c02f-4351-bd46-41d268514870"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 76.835 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ceb4cac-a72e-48b8-b53b-db466d7d6736")
-		(property "Reference" "Q5"
-			(at 73.025 28.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 85.725 28.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 74.295 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.835 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 76.835 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19078062"
-			(at 76.835 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "818825ef-d7a7-4115-a520-e5394e1c015d")
-		)
-		(pin "1"
-			(uuid "429ad147-ea39-41cf-ac5e-5f6e60289608")
-		)
-		(pin "2"
-			(uuid "17eb57fb-8a11-4a4d-b633-5253cae557f4")
-		)
-		(instances
-			(project "ILI9341_ESP32_V1"
-				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/184cff21-c02f-4351-bd46-41d268514870"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5971,6 +6107,15 @@
 			)
 		)
 		(property "LCSC" "C26000"
+			(at 156.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 156.21 139.7 0)
 			(effects
 				(font
@@ -6056,6 +6201,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "jop"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7e3c9c8-719e-4432-91b0-108e898bda1d")
 		)
@@ -6116,7 +6270,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C282809"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -6167,7 +6339,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.2348 119.38 0)
 			(effects
 				(font
@@ -6185,7 +6357,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" "jop"
 			(at 76.2 123.19 0)
 			(effects
 				(font

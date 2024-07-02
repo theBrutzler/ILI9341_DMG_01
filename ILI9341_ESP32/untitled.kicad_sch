@@ -2637,6 +2637,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.845 156.21) (xy 144.145 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a78e39-707b-4eef-9850-aa8b271f4f16")
+	)
+	(wire
+		(pts
 			(xy 193.04 111.76) (xy 205.74 111.76)
 		)
 		(stroke
@@ -2794,6 +2804,16 @@
 			(type default)
 		)
 		(uuid "37e31c1b-527d-4b28-acc0-2d18f98c7132")
+	)
+	(wire
+		(pts
+			(xy 144.145 137.16) (xy 144.145 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3814d49c-2df0-4d64-8b9d-48bb2ddecfd5")
 	)
 	(wire
 		(pts
@@ -3174,6 +3194,16 @@
 			(type default)
 		)
 		(uuid "8b1506b0-472f-4998-a235-8839f534da8a")
+	)
+	(wire
+		(pts
+			(xy 139.7 137.16) (xy 144.145 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0bd2b3-f2b2-4cce-b3db-3f410298259a")
 	)
 	(wire
 		(pts
@@ -4683,6 +4713,18 @@
 		)
 		(uuid "feda0a7c-0dea-4923-a3d2-6cce85639b3b")
 	)
+	(hierarchical_label "CHARGER_EN"
+		(shape output)
+		(at 29.845 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0490f4d1-1c13-43d1-bc9d-a9c0166f0849")
+	)
 	(hierarchical_label "CARD_SDA"
 		(shape bidirectional)
 		(at 27.94 43.18 180)
@@ -4822,7 +4864,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 78.105 24.765 0)
 			(effects
 				(font
@@ -4908,7 +4950,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 148.59 134.62 0)
 			(effects
 				(font
@@ -4994,7 +5036,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -5084,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -5242,7 +5284,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 210.82 86.36 0)
 			(effects
 				(font
@@ -5419,7 +5461,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 125.095 31.75 0)
 			(effects
 				(font
@@ -5506,7 +5548,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 183.515 52.07 0)
 			(effects
 				(font
@@ -5548,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "PMOS"
 			(at 85.725 28.575 90)
 			(effects
 				(font
@@ -5592,7 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 76.835 34.29 0)
 			(effects
 				(font
@@ -5685,7 +5727,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 99.06 63.5 0)
 			(effects
 				(font
@@ -5850,7 +5892,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 63.5 69.85 0)
 			(effects
 				(font
@@ -5936,7 +5978,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -6026,7 +6068,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 160.655 134.62 0)
 			(effects
 				(font
@@ -6115,7 +6157,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 156.21 139.7 0)
 			(effects
 				(font
@@ -6201,7 +6243,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -6288,7 +6330,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 140.97 90.17 0)
 			(effects
 				(font
@@ -6375,7 +6417,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 76.2 123.19 0)
 			(effects
 				(font

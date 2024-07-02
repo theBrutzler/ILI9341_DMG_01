@@ -1325,7 +1325,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 199.39 81.28 0)
 			(effects
 				(font

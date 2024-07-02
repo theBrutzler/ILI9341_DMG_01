@@ -5216,6 +5216,12 @@
 		(uuid "8806bea1-c385-4cf0-b161-cad6fda518e8")
 	)
 	(junction
+		(at 116.205 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e778a7-d7ef-4f50-a699-41f3c159c717")
+	)
+	(junction
 		(at 160.02 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5430,10 +5436,6 @@
 	(no_connect
 		(at 156.21 105.41)
 		(uuid "c55b067d-3a09-400f-b242-cf9552ad348d")
-	)
-	(no_connect
-		(at 125.73 123.19)
-		(uuid "c6e49949-8055-4eb4-9d41-b0e7930f57e4")
 	)
 	(no_connect
 		(at 240.03 20.32)
@@ -5778,6 +5780,16 @@
 			(type default)
 		)
 		(uuid "1c128886-ca73-4418-a955-b97183010ea8")
+	)
+	(wire
+		(pts
+			(xy 116.205 125.73) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d01fb42-ed24-4cfa-bde3-9631abef6528")
 	)
 	(wire
 		(pts
@@ -6261,6 +6273,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.205 123.19) (xy 116.205 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a158d75-43c9-4c99-9365-b1336bd21148")
+	)
+	(wire
+		(pts
 			(xy 252.73 151.765) (xy 252.73 151.13)
 		)
 		(stroke
@@ -6308,6 +6330,16 @@
 			(type default)
 		)
 		(uuid "4ecd628b-9112-4b84-b425-16474c694ef9")
+	)
+	(wire
+		(pts
+			(xy 117.475 123.19) (xy 116.205 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4f781e-0965-4f6f-9b4c-5d621e34834e")
 	)
 	(wire
 		(pts
@@ -6978,6 +7010,16 @@
 			(type default)
 		)
 		(uuid "906deb2c-c25d-47e3-8760-ef5740794ac6")
+	)
+	(wire
+		(pts
+			(xy 125.095 123.19) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90924ead-fb94-447b-88fa-b6472e0e5ff7")
 	)
 	(wire
 		(pts
@@ -8061,7 +8103,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 125.73) (xy 125.73 125.73)
+			(xy 109.855 125.73) (xy 116.205 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9434,7 +9476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 150.622 90)
 			(effects
 				(font
@@ -9470,7 +9512,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 152.4 0)
 			(effects
 				(font
@@ -9951,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 140.97 111.76 0)
 			(effects
 				(font
@@ -10163,6 +10205,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 121.285 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d053c45-6ab7-450d-a382-0e8689fad950")
+		(property "Reference" "R56"
+			(at 118.11 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K1"
+			(at 123.19 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.285 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.285 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26000"
+			(at 121.285 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOURCED" ""
+			(at 121.285 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a47dbba-ae91-4889-af5d-3d39dd107a58")
+		)
+		(pin "2"
+			(uuid "2671f0a2-9d64-4c31-bec6-d83d2d2ff677")
+		)
+		(instances
+			(project "ILI9341_ESP32"
+				(path "/ff5a7903-456b-49e1-a9c0-cc21ca8443ce/d975582f-4378-40f0-9d4d-51d3304967f8"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 111.125 92.71 90)
 		(unit 1)
@@ -10307,7 +10436,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -10356,7 +10485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 140.462 90)
 			(effects
 				(font
@@ -10392,7 +10521,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 142.24 0)
 			(effects
 				(font
@@ -10480,6 +10609,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "card"
+			(at 30.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83b9c5ed-b084-4aff-9db6-b588768da0c1")
 		)
@@ -10522,7 +10660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.342 144.78 90)
 			(effects
 				(font
@@ -10558,7 +10696,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 198.12 144.78 0)
 			(effects
 				(font
@@ -10607,7 +10745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.962 119.38 90)
 			(effects
 				(font
@@ -10643,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 205.74 119.38 0)
 			(effects
 				(font
@@ -10729,7 +10867,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 118.11 165.1 0)
 			(effects
 				(font
@@ -10816,7 +10954,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 130.81 180.34 0)
 			(effects
 				(font
@@ -10865,7 +11003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 148.082 90)
 			(effects
 				(font
@@ -10901,7 +11039,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 149.86 0)
 			(effects
 				(font
@@ -10995,6 +11133,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "card"
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3d9e3845-a2ae-42a2-8b4c-7787b98987bf")
 		)
@@ -11071,7 +11218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.952 155.575 90)
 			(effects
 				(font
@@ -11107,7 +11254,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 252.73 155.575 0)
 			(effects
 				(font
@@ -11221,7 +11368,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 127.762 90)
 			(effects
 				(font
@@ -11257,7 +11404,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -11418,6 +11565,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "card"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f3df249-7913-4db2-a4c3-903a29f0e5c9")
 		)
@@ -11532,7 +11688,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 130.81 165.1 0)
 			(effects
 				(font
@@ -11581,7 +11737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.707 21.59 90)
 			(effects
 				(font
@@ -11617,7 +11773,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 197.485 21.59 0)
 			(effects
 				(font
@@ -11668,7 +11824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 164.338 90)
 			(effects
 				(font
@@ -11704,7 +11860,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 73.66 162.56 0)
 			(effects
 				(font
@@ -11753,7 +11909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.35 152.908 90)
 			(effects
 				(font
@@ -11789,7 +11945,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 260.35 151.13 0)
 			(effects
 				(font
@@ -11838,7 +11994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 118.872 90)
 			(effects
 				(font
@@ -11874,7 +12030,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 74.93 120.65 0)
 			(effects
 				(font
@@ -11961,7 +12117,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 93.98 88.9 0)
 			(effects
 				(font
@@ -12010,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.587 132.08 90)
 			(effects
 				(font
@@ -12046,7 +12202,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 253.365 132.08 0)
 			(effects
 				(font
@@ -12137,7 +12293,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 52.07 60.325 0)
 			(effects
 				(font
@@ -12360,7 +12516,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 125.73 187.96 0)
 			(effects
 				(font
@@ -12439,7 +12595,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "party (2 missing)"
+		(property "SOURCED" ""
 			(at 81.28 43.815 0)
 			(effects
 				(font
@@ -12538,7 +12694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.83 67.183 90)
 			(effects
 				(font
@@ -12574,7 +12730,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 36.83 65.405 0)
 			(effects
 				(font
@@ -12661,7 +12817,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 43.18 175.26 0)
 			(effects
 				(font
@@ -12816,7 +12972,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 262.89 33.02 0)
 			(effects
 				(font
@@ -12931,7 +13087,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 156.845 63.5 0)
 			(effects
 				(font
@@ -13220,7 +13376,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 130.175 71.755 0)
 			(effects
 				(font
@@ -13261,7 +13417,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "PMOS"
 			(at 127.635 40.64 90)
 			(effects
 				(font
@@ -13306,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 39.37 0)
 			(effects
 				(font
@@ -13493,7 +13649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 196.342 152.4 90)
 			(effects
 				(font
@@ -13529,7 +13685,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 198.12 152.4 0)
 			(effects
 				(font
@@ -13682,7 +13838,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 43.18 47.625 0)
 			(effects
 				(font
@@ -13731,7 +13887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.512 28.575 90)
 			(effects
 				(font
@@ -13767,7 +13923,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 34.29 28.575 0)
 			(effects
 				(font
@@ -13816,7 +13972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 145.542 90)
 			(effects
 				(font
@@ -13852,7 +14008,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 147.32 0)
 			(effects
 				(font
@@ -13901,7 +14057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 143.002 90)
 			(effects
 				(font
@@ -13937,7 +14093,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 144.78 0)
 			(effects
 				(font
@@ -14155,7 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 27.305 171.45 0)
 			(effects
 				(font
@@ -14234,7 +14390,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 210.82 119.38 0)
 			(effects
 				(font
@@ -14321,7 +14477,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 226.06 48.26 0)
 			(effects
 				(font
@@ -14408,7 +14564,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -14459,7 +14615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.99 67.183 90)
 			(effects
 				(font
@@ -14495,7 +14651,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 46.99 65.405 0)
 			(effects
 				(font
@@ -14546,7 +14702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 169.418 90)
 			(effects
 				(font
@@ -14582,7 +14738,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -14735,7 +14891,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 62.23 167.64 0)
 			(effects
 				(font
@@ -14822,7 +14978,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 50.8 175.26 0)
 			(effects
 				(font
@@ -14871,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 127 90)
 			(effects
 				(font
@@ -14907,7 +15063,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -15022,7 +15178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 55.753 90)
 			(effects
 				(font
@@ -15058,7 +15214,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 59.69 53.975 0)
 			(effects
 				(font
@@ -15198,7 +15354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.43 153.162 90)
 			(effects
 				(font
@@ -15234,7 +15390,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 154.94 0)
 			(effects
 				(font
@@ -15480,6 +15636,15 @@
 				(hide yes)
 			)
 		)
+		(property "SOURCED" "card"
+			(at 26.67 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7dc1d15-df41-4d56-89ad-ff5e3082349e")
 		)
@@ -15520,7 +15685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.69 24.257 90)
 			(effects
 				(font
@@ -15556,7 +15721,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 59.69 26.035 0)
 			(effects
 				(font
@@ -15643,7 +15808,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 74.93 186.69 0)
 			(effects
 				(font
@@ -15731,7 +15896,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 165.1 186.69 0)
 			(effects
 				(font
@@ -15757,7 +15922,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 125.73 270)
+		(at 109.855 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15765,7 +15930,7 @@
 		(dnp no)
 		(uuid "b8d3c7b2-7efd-46d4-aff8-a83cc5f33e9e")
 		(property "Reference" "#PWR09"
-			(at 115.57 125.73 0)
+			(at 103.505 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15774,7 +15939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 124.46 90)
+			(at 113.03 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,7 +15948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 125.73 0)
+			(at 109.855 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15792,7 +15957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 125.73 0)
+			(at 109.855 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15801,7 +15966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 125.73 0)
+			(at 109.855 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +16049,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 62.23 162.56 0)
 			(effects
 				(font
@@ -15972,7 +16137,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 92.71 172.72 0)
 			(effects
 				(font
@@ -16101,7 +16266,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 30.48 0)
 			(effects
 				(font
@@ -16324,7 +16489,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 120.65 187.96 0)
 			(effects
 				(font
@@ -16411,7 +16576,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 166.37 67.31 0)
 			(effects
 				(font
@@ -16460,7 +16625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.352 28.575 90)
 			(effects
 				(font
@@ -16496,7 +16661,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 24.13 28.575 0)
 			(effects
 				(font
@@ -16798,7 +16963,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 95.25 67.31 0)
 			(effects
 				(font
@@ -17255,7 +17420,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 34.29 47.625 0)
 			(effects
 				(font
@@ -17341,7 +17506,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 118.11 180.34 0)
 			(effects
 				(font
@@ -17390,7 +17555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.35 130.048 90)
 			(effects
 				(font
@@ -17426,7 +17591,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 260.35 128.27 0)
 			(effects
 				(font
@@ -17936,7 +18101,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 166.37 59.69 0)
 			(effects
 				(font
@@ -18222,7 +18387,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 117.475 169.545 0)
 			(effects
 				(font
@@ -18330,7 +18495,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GSD"
+		(property "Value" "PMOS"
 			(at 127.635 46.99 90)
 			(effects
 				(font
@@ -18375,7 +18540,7 @@
 				(hide yes)
 			)
 		)
-		(property "SOURCED" "jop"
+		(property "SOURCED" ""
 			(at 138.43 50.8 0)
 			(effects
 				(font
